@@ -10,7 +10,7 @@ Drag and drop is enabled to append files and directories.Regular expression is e
 Copying or moving are enabled only when destination count and source count are equal.
 Their are mapped one-on-one.
 
-#**ex.**  
+##**ex.**  
 F:/test[0-9]+/hoge/hage/foo/bar
 
 analyze >>>
@@ -27,11 +27,11 @@ F:/test003
 D:/001.txt >>> F:/test001/hoge/hage/foo/bar  
 F:/test003 >>> F:/test002/hoge/hage/foo/bar  
 
-##**tools**
+###**tools**
 Qt Creator 3.5.1 + Qt 5.5.1 + MSVC2013 EE
 
 
-##**Licence** 
+###**License** 
 DnFsMapCopy is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
